@@ -5,34 +5,137 @@
     <title>Galileo</title>
 
     <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b19ea8ec6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Galileo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">inicio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">about us<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">nuestro trabajo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contacto</a>
-            </li>
-          </ul>
+    <body>
+      <!-- Barra de navegación-->
+      <div class="container-fluid bodyHome" id="index">
+        <header>
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Galileo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">inicio</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#aboutUs">about us<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ourWork">nuestros clientes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">contacto</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+      <!-- Home-->
+      <div class="container d-flex justify-content-end" style="height:100%">
+        <h1 class="text-right align-self-center">Estudio <br>de marketing y diseño</h1>
+      </div>
+    </div>
+
+    <!-- About us-->
+    <div class="container-fluid aboutUs" id="aboutUs">
+        <h2 class="text-center">about us</h2>
+        <div class=" d-flex justify-content-center" style="height:90%">
+          <div class="text text-center col-md-6 align-self-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
         </div>
-      </nav>
-    </header>
+        <div class="arrow text-right">
+          <a href="#index"><i class="fas fa-arrow-up fa-2x"></i></a>
+        </div>
+    </div>
+
+    <!-- Nuestro trabajo-->
+    <div class="container-fluid ourWork" id="ourWork">
+        <h2 class="text-center">nuestros clientes</h2>
+        <div class="d-flex" style="height:90%">
+          <div class="align-self-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-3">
+                <img src="images/clients/logoGini.png" alt="Gabriela Iglesias" style="width:100%">
+              </div>
+              <div class="col-lg-3">
+                <img src="images/clients/logoGini.png" alt="Gabriela Iglesias" style="width:100%">
+              </div>
+              <div class="col-lg-3">
+                <img src="images/clients/logoGini.png" alt="Gabriela Iglesias" style="width:100%">
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-lg-3">
+                <img src="images/clients/logoGini.png" alt="Gabriela Iglesias" style="width:100%">
+              </div>
+              <div class="col-lg-3">
+                <img src="images/clients/logoGini.png" alt="Gabriela Iglesias" style="width:100%">
+              </div>
+              <div class="col-lg-3">
+                <img src="images/clients/logoGini.png" alt="Gabriela Iglesias" style="width:100%">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="arrow text-right">
+          <a href="#index"><i class="fas fa-arrow-up fa-2x"></i></a>
+        </div>
+      </div>
+
+
+      <!-- Contacto-->
+      <div class="container-fluid contact" id="contact">
+          <h2 class="text-center">contacto</h2>
+
+          <div class="d-flex justify-content-center" style="height:90%">
+            <div class="align-self-center col-md-6">
+              <form class="text-center" action="index.html" method="post">
+                <label for="name">nombre</label>
+                <br>
+
+                <input type="text" name="name" value="">
+
+                <br>
+                <br>
+
+                <label for="mail">mail</label>
+
+                <br>
+
+                <input type="mail" name="mail" value="">
+
+                <br>
+                <br>
+
+                <label for="message">mensaje</label>
+
+                <br>
+
+                <textarea name="message" rows="8"></textarea>
+
+                <br>
+
+                <button type="submit" name="button">enviar mensaje</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="arrow text-right">
+            <a href="#index"><i class="fas fa-arrow-up fa-2x"></i></a>
+          </div>
+        </div>
+
+
 
   </body>
 </html>

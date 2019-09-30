@@ -3,16 +3,71 @@
   font-family: 'Barlow', sans-serif;
 }
 
+a, p, h1, h2, h3, h4, h5, h6, label {
+  color: white;
+}
+
 a {
   text-decoration: none;
-  color: white;
 }
 
 li {
   list-style-type: none;
 }
 
-body {
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+header {
+  position: fixed;
+}
+
+input {
+  border: 0px;
+  border-bottom: 1px solid white;
+  background-color: rgba(0,0,0,0);
+}
+
+textarea {
+  border: 1px solid white;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  margin-top: 2rem;
+  border: 2px solid white;
+  background-color: rgba(0,0,0,0);
+  padding: 1rem;
+}
+
+.bodyHome {
+  height: 100vh;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 50%);
+}
+
+.aboutUs {
+  height: 100vh;
+  background-color: #9DC5BB;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ourWork {
+  height: 100vh;
+  background-color: #93A8AC;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact {
+  height: 100vh;
+  background-color: #6DD3CE;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
