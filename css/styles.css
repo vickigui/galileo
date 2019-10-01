@@ -27,15 +27,21 @@ header {
   position: fixed;
 }
 
+form {
+  width: 500px;
+}
+
 input {
   border: 0px;
   border-bottom: 1px solid white;
   background-color: rgba(0,0,0,0);
+  width: 500px;
 }
 
 textarea {
   border: 1px solid white;
   background-color: rgba(0,0,0,0);
+  width: 500px;
 }
 
 button {
@@ -43,6 +49,7 @@ button {
   border: 2px solid white;
   background-color: rgba(0,0,0,0);
   padding: 1rem;
+  width: 100%;
 }
 
 .bodyHome {
@@ -70,4 +77,10 @@ button {
   background-color: #6DD3CE;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+@media (max-width: 994px) {
+  .ourWork {
+    height: 100%;
+  }
 }
