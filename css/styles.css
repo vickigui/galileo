@@ -52,6 +52,10 @@ button {
   width: 100%;
 }
 
+i {
+  color: white;
+}
+
 .bodyHome {
   height: 100vh;
   background-color: #21D4FD;
@@ -67,7 +71,7 @@ button {
 
 .ourWork {
   height: 100vh;
-  background-color: #93A8AC;
+  background-color: #DAC4F7;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -82,5 +86,14 @@ button {
 @media (max-width: 994px) {
   .ourWork {
     height: 100%;
+  }
+
+  input, textarea, button {
+    margin-bottom: 2rem;
+  }
+
+  label {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 }
