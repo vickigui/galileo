@@ -76,11 +76,19 @@ i {
   padding-bottom: 2rem;
 }
 
+.ourWork img {
+  margin-right: 4rem;
+}
+
 .contact {
   height: 100vh;
   background-color: #6DD3CE;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.contact p {
+  font-weight: 600;
 }
 
 @media (max-width: 994px) {
@@ -90,6 +98,7 @@ i {
 
   input, textarea, button {
     margin-bottom: 2rem;
+    width: 100%;
   }
 
   label {
