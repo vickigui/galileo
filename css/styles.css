@@ -33,6 +33,11 @@ h5 {
   font-weight: bold;
 }
 
+a:hover {
+  color: white;
+  font-weight: bold;
+}
+
 header {
   position: fixed;
 }
@@ -62,6 +67,11 @@ button {
   /* width: 100%; */
 }
 
+button:hover {
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
 i {
   color: white;
 }
@@ -73,22 +83,26 @@ hr {
 .bodyHome {
   height: 100vh;
   background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #0a1d2e 0%, #266074 50%);
-}
-
-.ourWork {
-  height: 100vh;
-  /* background-color: #FF8360; */
   background-image: url(../images/bg-work.jpg);
   background-size: cover;
   background-attachment: fixed;
+}
+
+#btn-home {
+  color: white;
+}
+
+.ourWork {
+  background-color: #05283b;
+  height: 100vh;
+  /* background-color: #FF8360; */
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
 .ourClients {
   height: 100vh;
-  background-color: #266074;
+  background-color: #364c76;
   padding-top: 2rem;
   padding-bottom: 2rem;
   min-height: 100%;
@@ -100,14 +114,17 @@ hr {
 
 .aboutUs {
   height: 100vh;
-  background-color: #0a1d2e;
+  background-color: #5c6e9c;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
 .contact {
   height: 100vh;
-  background-color: #5CA4A9;
+  /* background-color: #5CA4A9; */
+  background-image: url(../images/bg-contact.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
