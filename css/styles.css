@@ -51,19 +51,23 @@ input {
   border-bottom: 1px solid white;
   background-color: rgba(0,0,0,0);
   width: 400px;
+  color: white;
 }
 
 textarea {
   border: 1px solid white;
   background-color: rgba(0,0,0,0);
   width: 400px;
+  color: white;
+  padding: 1rem;
 }
 
 button {
   margin-top: 2rem;
   border: 2px solid white;
   background-color: rgba(0,0,0,0);
-  padding: 1rem 3rem;
+  padding: 1rem 0;
+  color: white;
   /* width: 100%; */
 }
 
@@ -88,12 +92,8 @@ hr {
   background-attachment: fixed;
 }
 
-#btn-home {
-  color: white;
-}
-
 .ourWork {
-  background-color: #05283b;
+  /* background-color: #05283b; */
   height: 100vh;
   /* background-color: #FF8360; */
   padding-top: 2rem;
@@ -102,7 +102,7 @@ hr {
 
 .ourClients {
   height: 100vh;
-  background-color: #364c76;
+  /* background-color: #364c76; */
   padding-top: 2rem;
   padding-bottom: 2rem;
   min-height: 100%;
@@ -114,9 +114,14 @@ hr {
 
 .aboutUs {
   height: 100vh;
-  background-color: #5c6e9c;
+  /* background-color: #5c6e9c; */
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.background-gradient {
+  background-color: #05283b;
+  background-image: linear-gradient(180deg, #05283b 12%, #364c76 65%, #5c6e9c 100%);
 }
 
 .contact {
@@ -159,5 +164,10 @@ hr {
 
   .space-mobile {
     display: block;
+  }
+
+  .aboutUs p {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
 }
