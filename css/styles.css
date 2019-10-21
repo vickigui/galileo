@@ -3,7 +3,8 @@
   font-family: 'Barlow', sans-serif;
 }
 
-a, p, h1, h2, h3, h4, h5, h6, label {
+a {
+ /* p, h1, h2, h3, h4, h5, h6, label { */
   color: white;
 }
 
@@ -77,17 +78,21 @@ button:hover {
 }
 
 i {
-  color: white;
+  /* color: white; */
 }
 
 hr {
   border: 0.4px solid white;
 }
 
+html {
+  margin: 10px;
+}
+
 .bodyHome {
   height: 100vh;
   background-color: #21D4FD;
-  background-image: url(../images/bg-work.jpg);
+  background-image: url(../images/bg-home.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -102,7 +107,7 @@ hr {
 
 .ourClients {
   height: 100vh;
-  /* background-color: #364c76; */
+  background-color: #364c76;
   padding-top: 2rem;
   padding-bottom: 2rem;
   min-height: 100%;
@@ -120,16 +125,16 @@ hr {
 }
 
 .background-gradient {
-  background-color: #05283b;
-  background-image: linear-gradient(180deg, #05283b 12%, #364c76 65%, #5c6e9c 100%);
+  /* background-color: #05283b;
+  background-image: linear-gradient(180deg, #05283b 12%, #364c76 65%, #5c6e9c 100%); */
 }
 
 .contact {
   height: 100vh;
-  /* background-color: #5CA4A9; */
-  background-image: url(../images/bg-contact.jpg);
+  background-color: #5CA4A9;
+  /* background-image: url(../images/bg-contact.jpg);
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -166,8 +171,8 @@ hr {
     display: block;
   }
 
-  /* .aboutUs p {
+  .aboutUs p {
     font-size: 2.5rem;
     line-height: 2.5rem;
-  } */
+  }
 }
